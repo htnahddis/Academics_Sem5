@@ -1,0 +1,3 @@
+My approach will be to complete Next.js independently beforehand, so that I have a solid foundation. Once that is done, I will focus on executing the college experiments during lab sessions.
+
+I believe there is limited value in working through Next.js solely in class alongside the teacher. Instead, my priority will be to explore backend development in depth and utilize lab time to build practical Next.js projects, thereby applying concepts more effectively.
