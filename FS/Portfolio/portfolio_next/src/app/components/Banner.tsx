@@ -1,10 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
-
-import { ArrowRight } from "lucide-react";
-
 import { Anton } from "next/font/google";
 const anton = Anton({
   subsets: ["latin"],
