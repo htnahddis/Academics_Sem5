@@ -2,7 +2,9 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+
 import { ArrowRight } from "lucide-react";
+
 import { Anton } from "next/font/google";
 const anton = Anton({
   subsets: ["latin"],
@@ -11,33 +13,47 @@ const anton = Anton({
 
 export default function Banner() {
   return (
-    <section className="relative w-full min-h-screen  text-white overflow-hidden flex items-center justify-center px-6 md:px-12 border-red-600 border-4">
-      {/* Giant Background Text */}
+    <section className="relative w-full min-h-screen  text-white overflow-hidden flex items-center justify-center px-6 md:px-12">
+    
 
- <div className="absolute inset-0 z-20 flex mx-[10vw] my-[4vh]  items-end justify-start pointer-events-none">
+ <div className="absolute inset-0 z-20 flex mx-[8vw] my-[2vh]  items-end justify-start pointer-events-none">
   <div className="pointer-events-autorounded-xl px-6 py-6 text-white ">
-    <div className="text-center py-2">
-      <h2 className="text-3xl font-bold">Full-Stack Developer</h2>
+    <div className="text-start py-2">
+      <h2 className="text-5xl font-bold">Full-Stack Developer</h2>
     
     </div>
 
-    <div className="w-16 mx-auto border-t my-3" />
+    <div className="w-[25vw]  border-t my-3" />
 
-    <div className="text-center py-2">
-      <h2 className="text-3xl font-bold">Marketing Head</h2>
-      <h4 className="text-lg mt-1">DJS SKYLARK</h4>
+    <div className="text-start py-2">
+      <h2 className="text-5xl font-bold">Marketing Head</h2>
+      <h4 className="text-2xl ">DJS SKYLARK</h4>
     </div>
 
-    <div className="w-16 mx-auto border-t my-3" />
+    <div className="w-[25vw]  border-t my-3" />
 
-    <div className="text-center py-2">
-      <h2 className="text-3xl font-bold">Secretary</h2>
-      <h4 className="text-lg mt-1">DJS ACM SIGAI</h4>
+    <div className="text-start py-2">
+      <h2 className="text-5xl font-bold">Secretary</h2>
+      <h4 className="text-2xl ">DJS ACM SIGAI</h4>
     </div>
   </div>
 
 </div>
 
+
+ <div className="absolute inset-0 z-20 flex mx-[8vw] my-[7vh]  items-end justify-end pointer-events-none">
+  <div className="pointer-events-autorounded-xl px-6 py-6 text-white ">
+    <div className="text-justify py-2">
+      <h2 className="text-1xl w-[25vw] font-mono">I’m a curious, adaptable learner with hands-on experience across web development, Android, marketing, operations, and content creation. My journey spans both technical and creative domains—building frontends, designing interfaces, promoting events, engaging sponsors, and crafting social media content.
+</h2>
+    
+    </div>
+
+    <div className="w-[25vw]  border-t my-3" />
+
+    </div>
+
+</div>
 <div>
       <h1
         className="${anton.className} absolute inset-0 flex my-[18vh]
@@ -56,7 +72,7 @@ export default function Banner() {
       
 
 
-     <div className="flex justify-center relative items-center w-full border-red-500 border-4 z-10">
+     <div className="flex justify-center relative items-center w-fullz-10">
   <Image
     src="/profile_main.png"
     alt="Creative Agency"
@@ -68,15 +84,8 @@ export default function Banner() {
 </div>
 </div>
 
-{/* 
-      <motion.div
-        initial={{ x: "100%" }}
-        animate={{ x: "-100%" }}
-        transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
-        className="absolute bottom-6 left-0 w-full bg-yellow-400 text-black py-3 text-sm md:text-lg font-bold whitespace-nowrap"
-      >
-        BRANDING &nbsp; | &nbsp; GRAPHIC DESIGN &nbsp; | &nbsp; WEB DESIGN &nbsp; | &nbsp; DIGITAL MARKETING &nbsp; | &nbsp;
-      </motion.div> */}
+
+     
     </section>
   );
 }

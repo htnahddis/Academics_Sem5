@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="absolute top-0 left-0 w-full z-20">
+    <nav className="absolute top-[3vh] left-0 w-full z-20 text-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-5">
         <a
           href="#"
@@ -11,10 +11,10 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="flex items-center md:order-2 space-x-5 md:space-x-0 rtl:space-x-reverse">
+        <div className="flex items-center md:order-2 space-x-5 md:space-x-0 rtl:space-x-reverse text-white">
           <button
             type="button"
-            className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            className="flex text-sm text-white bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:white"
             id="user-menu-button"
             aria-expanded="false"
           >
@@ -45,14 +45,14 @@ const Navbar = () => {
         </div>
 
         <div
-          className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 text-white"
           id="navbar-user"
         >
           <ul className="flex flex-col font-medium text-lg p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
               <a
-                href="#"
-                className="block py-2 px-4 text-white bg-[#C9FE05] rounded-sm md:bg-transparent md:text-[#C9FE05] md:p-0"
+                href="/"
+                className="block py-2 text-3xl px-4 text-white bg-[#C9FE05] rounded-sm md:bg-transparent md:text-[#C9FE05] md:p-0"
                 aria-current="page"
               >
                 Home
@@ -60,8 +60,8 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 px-4 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#C9FE05] md:p-0 dark:text-white"
+                href="/experience"
+                className="block py-2 px-4 rounded-sm  text-3xl md:hover:bg-transparent hover:text-[#C9FE05] md:p-0 dark:text-white"
               >
                 Experience
               </a>
@@ -69,7 +69,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-4 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#C9FE05] md:p-0 dark:text-white"
+                className="block py-2 px-4  rounded-sm text-3xl  md:hover:bg-transparent hover:text-[#C9FE05] md:p-0 dark:text-white"
               >
                 Contact
               </a>
@@ -77,6 +77,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+         <div className="w-auto flex justify-center border-t mx-[10vw] my-[2vh] " />
     </nav>
   );
 };
