@@ -3,6 +3,8 @@
 :root {
   --foreground: #252525;
   --background: #111FC7;
+  --greenmain:  #C9FE05;
+
 }
 
 @theme inline {
@@ -16,6 +18,7 @@
   :root {
  --foreground: #252525;
   --background: #111FC7;
+   --greenmain:  #C9FE05;
   }
 }
 
