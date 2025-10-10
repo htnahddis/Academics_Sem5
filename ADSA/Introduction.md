@@ -1,6 +1,6 @@
-# Syllabus 
+# Theory
 
-1. Experiment on Amortized Analysis.
+1. Experiment on Amortized Analysis. 
 
 2. To perform and implement Hiring Problem.
 
