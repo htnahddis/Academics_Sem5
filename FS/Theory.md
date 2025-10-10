@@ -36,5 +36,11 @@ These are different ways to put layout giving us more freedom to compute.
 ## Routing Metadata 
 Metadata is customiasable. The custom meta data doesn't work in use client page. 
 
+we can work on the title properly 
+ title :{
+    default: "sdfsfds",
+    template: "&s | sdfsfds"
+     }
+
 
 
